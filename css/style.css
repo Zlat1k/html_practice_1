@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --pink-color: #ff817e;
+    --dark-blue: #211833;
+    --dark-grey: #1e2528;
+    --grey-color: #555555;
+    --white-text: #ffffff;
+    --grey-button: #30383b;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2.4em;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 185px;
+    color: var(--dark-blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 95px;
+    background-color: #fff;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-munu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 3.2em;
+    display: flex;
+    text-transform: uppercase;
+    width: 456px;
+    justify-content: space-between;
+}
+
+.main-munu a {
+    color: #263a41;
+    font-weight: 500;
+}
+
+main {
+    margin-top: 95px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+.hero-pretitle {
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 4.8em;
+    letter-spacing: 2px;
+    color: var(--pink-color);
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+.hero-title {
+    font-family: 'Rufina';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: calc(75 / 65);
+    color: var(--dark-grey);
+    margin: 0 0 57px 0;
+    width: 563px;
+}
+
+.hero-p {
+    height: 47px;
+    font-size: 15px;
+    line-height: calc(27 / 15);
+    color: var(--grey-color);
+    width: 510px;
+    margin-bottom: 60px;
+}
+
+.hero-button {
+    font-size:  13px;
+    line-height: calc(72 / 13);
+    background-color: var(--pink-color);
+    color: var(--white-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 30px;
+    margin-right: 55px;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    color: var(--grey-button);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(27 / 15);
+    text-align: right;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
