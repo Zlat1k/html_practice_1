@@ -142,8 +142,9 @@ main {
 }
 
 .adout-spa {
-    padding-top: 127px;
-    padding-bottom: 127px;
+    padding-top: 184px;
+    padding-bottom: 70px;
+    text-align: center;
 }
 
 .about-logo {
@@ -157,7 +158,7 @@ main {
     color: #888888;
     font-weight: 400;
     font-family: "Roboto";
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 34px;
 }
 
@@ -167,39 +168,59 @@ main {
     color: #1e2528;
     font-weight: 700;
     font-family: "Rufina";
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 39px;
 }
 
 .about-text {
-    width: 863px;
-    height: 71px;
+    /* width: 863px;
+    height: 71px; */
     font-size: 15px;
-    line-height: 28px;
+    line-height: 1.87em;
     color: #888888;
     font-weight: 300;
     font-family: "Roboto";
-    text-align: center;
-    margin-left: 152px;
-    margin-bottom: 68px;
+    /* text-align: center; */
+    /* margin-left: 152px; */
+    margin-bottom: 70px;
+    padding: 0 120px;
 }
 
 .about-btn {
     font-size: 13px;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 2.15em;
     color: #ffffff;
     font-weight: 500;
     font-family: "Roboto";
-    text-align: center;
+    /* text-align: center; */
     background-color: var(--pink-color);
     padding: 21px 48px;
     border-radius: 30px;
-    margin-left: 500px;
+    /* margin-left: 500px; */
 }
 
+.section-images {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.images-list {
+    display: flex;
+    justify-content: center;
+}
+
+.images-list li:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* .images-item {
+    margin-right: 5px;
+    opacity: 0.2;
+} */
+
 .procedures {
-    padding-top: 140px;
+    padding-top: 70px;
     padding-bottom: 140px;
 }
 
@@ -225,23 +246,17 @@ main {
     margin-left: 225px;
 }
 
-.images-list {
-    display: flex;
-    justify-content: center;
-}
-
-.images-item {
-    margin-right: 5px;
-    opacity: 0.2;
-}
-
 .procedures-cards {
     display: flex;
     margin-top: 94px;
 }
 
-.procedures-cards .procedures-item {
+/* .procedures-cards .procedures-item {
     flex-basis: calc(100% / 3);
+} */
+
+.procedures-cards li:not(:last-child) {
+    margin-right: 20px;
 }
 
 .procedures-img {
@@ -489,7 +504,7 @@ main {
 }
 
 .contact {
-    padding-top: 140px;
+    padding-top: 60px;
     padding-bottom: 140px;
 }
 
@@ -525,7 +540,24 @@ main {
     text-transform: uppercase;
 } 
 
+.contact-mail a,
+.contact-phone a {
+    color: #888888;
+}
+
 .adress {
+    margin-top: 121px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     margin-top: 121px;
 }
 
@@ -563,6 +595,10 @@ main {
     text-align: center;
 }
 
+.footer-menu a {
+    color: #263a41;
+}
+
 .footer-social-item {
     display: flex;
     margin-top: 51px;
@@ -571,6 +607,7 @@ main {
 .copyright {
     font-size: 13px;
     line-height: 25px;
+    letter-spacing: 0.8px;
     color: #888888;
     font-weight: 400;
     font-family: "Roboto";
