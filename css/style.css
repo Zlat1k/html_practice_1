@@ -10,6 +10,13 @@ h3 {
     padding: 0;
 } */
 
+img {
+    object-fit: cover;
+}
+    /* width: 100%;
+    height: 100%;
+} */
+
 :root {
     --pink-color: #ff817e;
     --dark-blue: #211833;
@@ -217,10 +224,10 @@ main {
 /* .images-item {
     margin-right: 5px;
     opacity: 0.2;
-} */
+}  */
 
 .procedures {
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 140px;
 }
 
@@ -249,19 +256,29 @@ main {
 .procedures-cards {
     display: flex;
     margin-top: 94px;
+    justify-content: space-between;
 }
 
 /* .procedures-cards .procedures-item {
     flex-basis: calc(100% / 3);
 } */
 
-.procedures-cards li:not(:last-child) {
+/* .procedures-cards li:not(:last-child) {
     margin-right: 20px;
-}
+} */
 
 .procedures-img {
-    opacity: 0.5; 
+    /* opacity: 0.5;  */
     margin-bottom: 40px;
+}
+
+.procedures-item {
+    padding: 20px 20px 47px;
+    border: 1px solid lightslategrey;  
+    display: flex; 
+    flex-flow: column;
+    align-items: center; 
+    justify-content: center;
 }
 
 .procedures-name {
@@ -294,8 +311,14 @@ main {
     font-family: "Roboto";
     text-align: center;
     background-color: var(--grey-button);
-    padding: 17px 40px;
-    border-radius: 30px;
+    padding: 12px 40px;
+    border-radius: 30px;  
+    
+}
+
+.procedures-btn:hover,
+.procedures-btn:focus {
+    background-color: var(--pink-color);
 }
 
 .reviews {
